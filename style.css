@@ -1,0 +1,84 @@
+
+/* #font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* #header */
+    
+.first-site{
+    display: flex;
+    background: #2D25A0;
+    padding: 50px;
+    -ms-flex-item-align:  center;
+}
+.live{
+    color: #FFFFFF;
+    width: 168px;
+height: 44px;
+left: 156px;
+top: 464px;
+background: #E02C6D;
+}
+
+.h1{
+    color: #FFFFFF;
+    font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+}
+.first-site:hover .banner{
+    transform: scale(.35) rotate(360deg);
+    
+}
+.banner{
+    transition: transform 1s ease-in-out;
+}
+.copa-img img{
+    padding-left: 70px;
+    width: 556.01px;
+height: 438px;
+}
+
+
+/* Top-Players */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: row;
+align-items: flex-start;
+padding: 15px;
+
+
+}
+.player{
+    position: static;
+width: 330px;
+height: 474px;
+background: #FFFFFF;
+}
+.player img{
+    width: 300px;
+height: 256px;
+}
+.players-name{
+    font-size: 28px;
+line-height: 40px;
+color: #18191F;
+}
+.players-detaile{
+    font-size: 16px;
+line-height: 26px;
+color: #6C6C6C;
+}
+
+/* style-footer*/
+.logo img{
+    width: 200px;
+    height: 75px;
+}
+.social-icons img{
+    width: 2.5%;
+
+}
