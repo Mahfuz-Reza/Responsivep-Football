@@ -6,7 +6,10 @@ body{
 
 }
 /* #header */
-    
+    .home{
+        width: 1050px;
+        padding: 30px;
+    }
 .first-site{
     display: flex;
     background: #2D25A0;
@@ -40,18 +43,22 @@ line-height: 80px;
     width: 556.01px;
 height: 438px;
 }
-
-
 /* Top-Players */
+.conteiner{
+    width: 1050px;
+    padding: 30px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     flex-direction: row;
 align-items: flex-start;
 padding: 15px;
-
-
+grid-row-gap: 30px;
 }
+
+
+
 .player{
     position: static;
 width: 330px;
@@ -74,11 +81,23 @@ color: #6C6C6C;
 }
 
 /* style-footer*/
+#footer{
+    display: block;
+    justify-content: center;
+    margin-left: 430PX;
+    margin-top: 150px;
+
+}
 .logo img{
-    width: 200px;
-    height: 75px;
+    width: 230px;
+    height: 50px;
 }
 .social-icons img{
-    width: 2.5%;
+    width: 4%;
+    margin-left: 22px;
 
+}
+.common{
+    display: flex;
+    align-items: center;
 }
